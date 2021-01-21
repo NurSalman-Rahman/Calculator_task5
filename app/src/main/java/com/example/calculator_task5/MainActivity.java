@@ -6,10 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-EditText edit;
+TextView edit;
 Button button1,button2,button3,button_add,button4,button5,button6,button_sub,button7
         ,button8,button9,button_multi,button10,button11,button12,button_divition,button_equal;
 

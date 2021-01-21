@@ -10,15 +10,16 @@
 
     tools:context=".MainActivity">
 
-    <EditText
-        android:backgroundTint="@color/teal_700"
+    <TextView
+       android:textSize="32sp"
+        android:gravity="center"
         android:textColorHint="@color/teal_700"
         android:id="@+id/et1"
         android:textColor="@color/teal_700"
         android:layout_width="match_parent"
         android:layout_height="150dp">
 
-    </EditText>
+    </TextView>
     <LinearLayout
 
         android:orientation="horizontal"
