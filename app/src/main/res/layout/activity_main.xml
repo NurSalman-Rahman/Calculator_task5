@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginTop="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <EditText
+        android:backgroundTint="@color/teal_700"
+        android:textColorHint="@color/teal_700"
+        android:id="@+id/et1"
+        android:textColor="@color/teal_700"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+    </EditText>
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_marginRight="15dp"
+            android:textColor="@color/white"
+            android:id="@+id/bt1"
+            android:textSize="28sp"
+            android:text="1"
+            android:backgroundTint="@color/material_on_primary_disabled"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:layout_marginRight="15dp"
+            android:backgroundTint="@color/material_on_primary_disabled"
+            android:id="@+id/bt2"
+            android:textSize="28sp"
+            android:text="2"
+
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:layout_marginRight="15dp"
+            android:backgroundTint="@color/material_on_primary_disabled"
+            android:id="@+id/bt3"
+            android:textSize="28sp"
+            android:text="3"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+
+
+        <Button
+            android:backgroundTint="@color/material_on_primary_disabled"
+            android:id="@+id/btadd"
+            android:textSize="28sp"
+            android:text="+"
+            android:layout_marginRight="15dp"
+
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:backgroundTint="@color/material_on_primary_disabled"
+            android:layout_marginRight="15dp"
+            android:id="@+id/bt4"
+            android:textSize="28sp"
+            android:text="4"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:backgroundTint="@color/material_on_primary_disabled"
+            android:layout_marginRight="15dp"
+            android:id="@+id/bt5"
+            android:textSize="28sp"
+            android:text="5"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:backgroundTint="@color/material_on_primary_disabled"
+            android:layout_marginRight="15dp"
+            android:id="@+id/bt6"
+            android:textSize="28sp"
+            android:text="6"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+
+
+        <Button
+            android:layout_marginRight="15dp"
+            android:id="@+id/btsub"
+            android:textSize="28sp"
+            android:text="-"
+            android:backgroundTint="@color/material_on_primary_disabled"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:backgroundTint="@color/material_on_primary_disabled"
+            android:layout_marginRight="15dp"
+            android:id="@+id/bt7"
+            android:textSize="28sp"
+            android:text="7"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:layout_marginRight="15dp"
+            android:backgroundTint="@color/material_on_primary_disabled"
+            android:id="@+id/bt8"
+            android:textSize="28sp"
+            android:text="8"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:layout_marginRight="15dp"
+            android:backgroundTint="@color/material_on_primary_disabled"
+            android:id="@+id/bt9"
+            android:textSize="28sp"
+            android:text="9"
+
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content">
+
+        </Button>
+
+
+        <Button
+            android:backgroundTint="@color/material_on_primary_disabled"
+            android:layout_marginRight="15dp"
+            android:id="@+id/btmul"
+            android:textSize="28sp"
+            android:text="*"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:backgroundTint="@color/material_on_primary_disabled"
+            android:id="@+id/bt10"
+            android:textSize="28sp"
+            android:text="."
+            android:layout_marginRight="15dp"
+
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:layout_marginRight="15dp"
+            android:backgroundTint="@color/material_on_primary_disabled"
+            android:layout_marginTop="10dp"
+            android:id="@+id/bt11"
+            android:textSize="28sp"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:backgroundTint="@color/material_on_primary_disabled"
+            android:layout_marginRight="15dp"
+            android:id="@+id/bt12"
+            android:textSize="28sp"
+            android:text="c"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content">
+
+        </Button>
+
+
+
+        <Button
+            android:backgroundTint="@color/material_on_primary_disabled"
+            android:layout_marginRight="15dp"
+            android:id="@+id/btdiv"
+            android:textSize="28sp"
+            android:text="/"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+    </LinearLayout>
+
+     <Button
+         android:textSize="28sp"
+         android:backgroundTint="@color/material_on_primary_disabled"
+         android:text="="
+         android:id="@+id/btequl"
+         android:layout_marginTop="20dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+     </Button>
+
+
+
+
+
+
+
+
+</LinearLayout>
